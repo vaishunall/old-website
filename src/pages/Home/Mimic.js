@@ -3,6 +3,7 @@ import "./Home.css";
 import Button from '../../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
 import {FaGithub } from 'react-icons/fa';
+import MimicDemo from "../../assets/Mimic_Demo_High.mp4"
 
 export default function Mimic() {
   const navigate = useNavigate();
@@ -47,6 +48,7 @@ export default function Mimic() {
         
 
         <div className='format4'>
+        <video src={MimicDemo} width="600" height="300" controls="controls" autoplay="true" />
         <h1 className='subheading2' style={{textAlign: "left"}}>About the Project</h1>
         <h1 className='body1' style={{textAlign: "left"}}>
         Mimic is an iOS Mobile app that allows users to discreetly initiate fake calls to get out of dangerous
