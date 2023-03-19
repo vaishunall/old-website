@@ -281,7 +281,8 @@
     max-width: 150px;
     min-width: 20px;
     max-height: 150px;
-    flex: 1 1 0;
+    
+    flex-shrink: 0;
    
 }
 
@@ -488,7 +489,7 @@ textarea::placeholder{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .vyshnaviNalla{
         transform: translate();
         max-width: 250px;
@@ -685,7 +686,7 @@ textarea::placeholder{
         max-width: 100px;
         min-width: 20px;
         max-height: 150px;
-        flex: 1 1 0;
+        flex-shrink: 0;
        
     }
 

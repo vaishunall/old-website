@@ -31,7 +31,7 @@ export default function WmweWebsite() {
                 fontSize= {"1.3rem"}
                 ></Button>
             </div>
-        <h1 className='subheading2'>WMWE Website</h1>
+        <h1 className='subheading2'>WMWE Website - In Progress</h1>
         <div className="projectsPageTags">
         {renderTags}
         </div>

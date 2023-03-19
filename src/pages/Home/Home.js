@@ -61,8 +61,8 @@ export default class Home extends Component {
             <Card
             projectName= {"Personal Website"}
             projectDescription = {"A personal website I designed and built to establish my professional brand and showcase "
-            + "my technical skills, leadership abilities, and who I am as a person."}
-            projectTags = {"React JS,Three JS,Firebase"}
+            + "my projects, technical skills, and more about me"}
+            projectTags = {"React JS,Three JS,Firebase,AWS S3"}
             image = {"images/personal-website-project-icon.png"}
             navigateTo = {'/personalwebsite'}
             award = {null}
