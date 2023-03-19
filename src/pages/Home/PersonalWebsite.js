@@ -18,7 +18,7 @@ export default function PersonalWebsite() {
         window.scrollTo(0, 0)
       }, [])
 
-    const projectTags = "React JS,Three JS,Firebase,AWS S3"
+    const projectTags = "React JS,Three JS,Firebase"
     const tags = projectTags.split(",");
     const renderTags = tags.map((tag) => (
         <div className="projects-tag">{tag}</div>
