@@ -38,7 +38,7 @@ export default class Home extends Component {
             
                 <h1 className='subheading1'>hey, it's</h1>
                 <img className='vyshnaviNalla' src={name}></img>
-                <h1 className='subheading2'>I’m a junior majoring in computer science looking for summer 2023 internships</h1>
+                <h1 className='subheading2'>I’m a junior majoring in computer science looking for summer/fall 2023 internships</h1>
                 <Button 
                 color1= {"#FFFFFF"}
                 children = {"get in touch"}

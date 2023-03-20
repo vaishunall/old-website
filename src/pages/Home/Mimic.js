@@ -57,7 +57,7 @@ export default function Mimic() {
         <h1 className='subheading2' style={{textAlign: "left"}}>Async Storage</h1>
         <h1 className='body1' style={{textAlign: "left"}}>
         The team ran into a roadblock about whether to use cloud or local storage for our app. Cloud offers faster 
-        retrieval, larger storage, and the ability to implement a login system and other features, but requires a 
+        retrieval, larger storage, and the ability to implement other features such as a login system, but requires a 
         connection. Local storage is slower, but provides accessibility everywhere. Since we only needed to store 
         small amounts of data and decided to prioritize availability regardless of connectivity, we opted for Async 
         Storage to store user settings. This was able to store our data locally and allow it to persist across reboots.
