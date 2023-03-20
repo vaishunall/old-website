@@ -7,7 +7,7 @@ import PersonalWebsite from './pages/Home/PersonalWebsite';
 import WingIt from './pages/Home/WingIt';
 import WmweWebsite from './pages/Home/WmweWebsite';
 import CamCompanion from './pages/Home/CamCompanion';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, redirect} from 'react-router-dom';
 
 
 
@@ -17,17 +17,16 @@ function App() {
     <Router>
      
       <Header></Header>
-      {/* <Home></Home> */}
-      <nav>
-      
-      </nav>
+  
+     
     <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
+      <Route exact path='/' element={<Home></Home>}></Route>
       <Route path='/mimic' element={<Mimic></Mimic>}></Route>
       <Route path='/personalwebsite' element={<PersonalWebsite/>}></Route>
       <Route path='/wingit' element={<WingIt></WingIt>}></Route>
       <Route path='/wmwewebsite' element={<WmweWebsite></WmweWebsite>}></Route>
       <Route path='/camcompanion' element={<CamCompanion/>}></Route>
+      <Route exact path="/website" element={<Home></Home>}></Route>
     </Routes>
 
     </Router>

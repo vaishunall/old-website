@@ -3,6 +3,8 @@ import "./Home.css";
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate} from 'react-router-dom';
 import { FaAward } from 'react-icons/fa';
 
+
+
 export const Card = ({projectName, projectDescription, projectTags, image, navigateTo, award}) => {
 
   const navigate = useNavigate();

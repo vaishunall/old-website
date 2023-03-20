@@ -4,7 +4,6 @@ import "./Home.css";
 import Button from '../../components/Button/Button';
 import "../../components/Three/Sphere.js";
 import Shape from "../../components/Three/Sphere.js";
-import Sphere from "../../assets/mimic-project-icon.png";
 import { Card } from "./Card";
 import { Feedback } from "./Feedback";
 import JavaIcon from "../../assets/Java-skill.png";
@@ -20,8 +19,12 @@ import FigmaIcon from "../../assets/figma_skill.png";
 import AboutMeImage from "../../assets/image-aboutme.jpg";
 import WmweIcon from "../../assets/wmwe-leadership-icon.png";
 import AcmIcon from "../../assets/acm-leadership.png";
-import {FaLinkedin, FaEnvelope, FaEnvelopeSquare } from 'react-icons/fa';
-import { Link} from 'react-router-dom';
+import {FaLinkedin, FaEnvelopeSquare } from 'react-icons/fa';
+import personalWebsiteIcon from "../../assets/personal-website-project-icon.png";
+import wmweIcon from "../../assets/wmwe-project-icon.png";
+import camCompanionIcon from "../../assets/camcompanion-project-icon.png";
+import wingitIcon from "../../assets/wingit-project-icon.png";
+import mimicIcon from "../../assets/mimic-project-icon.png";
 
 
 
@@ -63,7 +66,7 @@ export default class Home extends Component {
             projectDescription = {"A personal website I designed and built to establish my professional brand and showcase "
             + "my projects, technical skills, and more about me"}
             projectTags = {"React JS,Three JS,Firebase"}
-            image = {"images/personal-website-project-icon.png"}
+            image = {personalWebsiteIcon}
             navigateTo = {'/personalwebsite'}
             award = {null}
             ></Card>
@@ -72,7 +75,7 @@ export default class Home extends Component {
             projectName= {"WMWE Website"}
             projectDescription = {"A website for WMWE (Women Mentoring Women in Engineering) at UTD built to better organize the biannual mentoring program and present all related information to the mentees and mentors in one place."}
             projectTags = {"React JS"}
-            image = {"images/wmwe-project-icon.png"}
+            image = {wmweIcon}
             navigateTo = {'/wmwewebsite'}
             award = {null}
             ></Card>
@@ -83,7 +86,7 @@ export default class Home extends Component {
             projectName= {"CamCompanion"}
             projectDescription = {"A safety mobile app for to ensure a car's safety for owners. It allows owners to easily view and interact with live and recorded video footage sent from their car."}
             projectTags = {"React Native"}
-            image = {"images/camcompanion-project-icon.png"}
+            image = {camCompanionIcon}
             navigateTo = {'/camcompanion'}
             award = {"1st place for Toyota at WEHack 2022"}
             ></Card>
@@ -92,7 +95,7 @@ export default class Home extends Component {
             projectName= {"WingIt"}
             projectDescription = {"A cross platform Travel Companion App in which users can enter their American Airlines flight number and be presented with the weather, a to-do list, and top attractions near their destination to increase the ease of the trip."}
             projectTags = {"React Native,API Integration"}
-            image = {"images/wingit-project-icon.png"}
+            image = {wingitIcon}
             navigateTo = {'/wingit'}
             award = {"1st place for AA at HackUTD 2021"}
             ></Card>
@@ -102,7 +105,7 @@ export default class Home extends Component {
             projectDescription = {"An iOS Mobile app that allows users to discreetly " + 
             "initiate fake calls to get out of dangerous and uncomfortable situations."}
             projectTags = {"React Native,Async Storage"}
-            image = {"images/mimic-project-icon.png"}
+            image = {mimicIcon}
             navigateTo = {'/mimic'}
             award = {"2nd place at ACM Projects Presentation Night"}
             ></Card>
