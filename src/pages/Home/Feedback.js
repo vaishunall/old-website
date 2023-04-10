@@ -26,7 +26,7 @@ export const Feedback = () => {
           <h1 className="subheading2" style={{textAlign: "left"}}>got any feedback?</h1>
 
           <div className="feedback-form-flex">
-            <h3 className="body1" style={{textAlign: 'left'}}>This is a newly made website, so let me of your thoughts. I’m always looking to grow and improve!</h3>
+            <h3 className="body1" style={{textAlign: 'left'}}>This is a newly made website, so let me know of your thoughts. I’m always looking to grow and improve!</h3>
 
             <form className="feedback-form">
             <input className="feedback-form-name" 

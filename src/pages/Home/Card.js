@@ -26,7 +26,7 @@ export const Card = ({projectName, projectDescription, projectTags, image, navig
               <div className="projects-text-flex">
                 <div className="projects-title-flex">
                   <div onClick={handleClick} onHov >
-                  <h1 className="subheading2" style={{textDecorationLine: "underline", cursor: "pointer"}} >{projectName} </h1>
+                  <h1 className="subheading2 projects-link" style={{textDecorationLine: "underline", cursor: "pointer"}}>{projectName} </h1>
                   </div>
                   {renderTags}
                 </div>

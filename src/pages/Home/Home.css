@@ -408,6 +408,10 @@ textarea::placeholder{
     padding-top: 5%;
 }
 
+.projects-link:hover{
+    color: #DF329F;
+}
+
 
 @media screen and (max-width: 1200px){
 
